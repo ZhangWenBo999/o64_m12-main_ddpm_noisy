@@ -19,7 +19,7 @@
             "which_dataset": {  // import designated dataset using arguments 
                 "name": ["data.dataset", "InpaintDataset"], // import Dataset() class / function(not recommend) from data.dataset.py (default is [data.dataset.py])
                 "args":{ // arguments to initialize dataset
-                    "data_root": "png_celebahq_64/png_local_test_64_10.flist",
+                    "data_root": "png_celebahq_64/png_train_28000_64.flist",
                     "data_len": -1,
                     "mask_config": {
                         // 'ThickStrokes', 'MediumStrokes', 'ThinStrokes', 'Every_N_Lines', 'Completion', 'Expand', 'Nearest_Neighbor'
