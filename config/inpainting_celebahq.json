@@ -150,7 +150,7 @@
         "save_checkpoint_epoch": 1,
         "log_iter": 1e3, // log every specified number of iterations
         "tensorboard" : false, // tensorboardX enable
-        "min_val_mae_loss": 133.26156616210938,
+        "min_val_FID_loss": 133.26156616210938,
 //        "min_val_FID_loss": 1e3,
         "min_val_flag": false,
         "train_previous":[],
